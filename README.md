@@ -1,12 +1,34 @@
-# React + Vite
+# 📅 React Calendar App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern calendar web application built with **React** and **Vite**, featuring **daily**, **weekly**, and **monthly** views. Users can add and view events, which are stored in the browser's `localStorage`.
+<img width="194" alt="image" src="https://github.com/user-attachments/assets/64e919e2-4292-475f-ab96-8e4236eac4bf" />
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🗓️ Toggle between **Daily**, **Weekly**, and **Monthly** calendar views
+- 📝 Add new events with icons and custom colors
+- 💾 Events are saved in `localStorage` to persist on page reload
+- 🔄 Responsive and dynamic date navigation
+- ✨ Styled using Tailwind CSS with smooth UI/UX
+- ⚙️ Deployed on Netlify
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/b84d0a9c-0a47-422d-9ac7-050abbb7673a" />
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React + Vite
+- **Styling**: Tailwind CSS
+- **Date Handling**: date-fns
+- **Deployment**: Netlify
+
+## 🛠️ Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/react-calendar-app.git
+cd react-calendar-app
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
